@@ -1,0 +1,94 @@
+import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+nav ul li:hover{
+    color:rgb(251, 226, 195);
+    cursor: pointer;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+.prev{
+    position: absolute;
+    top:8rem;
+    left:28.125rem;
+}
+.outer{
+    height:33rem;
+    width:25rem;
+    color:white;
+    background-color: black;
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.head a{
+    position: absolute;
+    right:20px;
+    color: rgb(160, 158, 158);
+}
+.info{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: rgb(160, 158, 158);
+    width:15.625rem;
+    height:25px;
+}
+button{
+    background-color: aquamarine;
+    height:30px;
+}
+.footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    margin:5px;
+}
+a{
+    text-decoration: none;
+    margin: 5px;
+}

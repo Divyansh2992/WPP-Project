@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="logo.png" rel="Icon">
+    <title>Sign-up</title>
+    <link href="sign-up.css"rel="stylesheet">
+</head>
+<body>
+    <div class="upper">
+        <nav>
+            <ul>
+                <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+                <li class="home">Home</li>
+                <li class="about">About</li>
+                <li style="position:relative ;left:61%;" class="sign_in">Sign-in</li>
+                <li style="position:relative ;left:63%;" class="sign_up">Sign-Up</li>
+            </ul>
+        </nav>
+        </div>
+
+        <div class="prev">
+    <form>
+    <div class="outer">
+        <div class="head">
+            <a href="dinoworld.html">X</a>
+            <h3>Sign up</h3>
+        </div>
+        <div class="info">
+            <p>What's your Name?</p>
+            <input type="text" placeholder="Name">
+
+            <p>What's your E-mail?</p>
+            <input type="text" placeholder="E-mail" class="mail">
+
+            <p>Your Password?</p>
+            <input type="password" placeholder="password" class="pass">
+
+            <p>Phone-Number</p>
+            <input type="text" placeholder="98xxxxxxxx">
+            <br>
+            <br>
+           <button type="submit" class="submit">Start Your Discovery</button>
+        </div>
+        <div class="footer">
+            <a href="Sign-in.html">Sign in with your account</a>
+           
+        </div>
+    </div>
+    </form>
+        </div>
+    <script src="sign_in.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let home = document.querySelector('.home');
+            let about = document.querySelector('.about');
+            let sign_in = document.querySelector('.sign_in');
+            let sign_up = document.querySelector('.sign_up');
+    
+            home.addEventListener('click', () => {
+                window.location = "Sign-in.html";
+            });
+    
+            about.addEventListener('click', () => {
+                window.location = "about.html";
+            });
+    
+            sign_in.addEventListener('click', () => {
+                window.location = "Sign-in.html";
+            });
+    
+            sign_up.addEventListener('click', () => {
+                window.location = "Sign-up.html";
+            });
+        });
+    </script>
+
+</body>
+</html>

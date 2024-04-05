@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="logo.png"rel="Icon">
+    <title>Sign-in</title>
+    <link href="sign-in.css"rel="stylesheet">
+</head>
+<body>
+    <div class="upper">
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li class="home">Home</li>
+            <li class="about">About</li>
+            <li style="position:relative ;left:61%;" class="sign_in">Sign-in</li>
+            <li style="position:relative ;left:63%;" class="sign_up">Sign-Up</li>
+        </ul>
+    </nav>
+    </div>
+    <div class="prev">
+    <div class="outer">
+        <div class="head">
+            <a href="index - Copy.html">X</a>
+            <h2>LOGIN OR SIGN UP TO START</h2> 
+            
+        </div>
+        <div class="info">
+            <p>What's Your E-mail</p>
+            <input type="text" class="mail">
+
+            <p> Your password?</p>
+            <input type="password" class="pass">
+            <br>
+            <br>
+            <button type="submit" class="submit">Login</button>
+        </div>
+        <div class="footer">
+            <a href="Sign-up.html"> Create Account</a>
+                    </div>
+    </div>
+    </div>
+    <script src="sign_in.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let home = document.querySelector('.home');
+            let about = document.querySelector('.about');
+            let sign_in = document.querySelector('.sign_in');
+            let sign_up = document.querySelector('.sign_up');
+    
+            home.addEventListener('click', () => {
+                window.location = "Sign-in.html";
+            });
+    
+            about.addEventListener('click', () => {
+                window.location = "about.html";
+            });
+    
+            sign_in.addEventListener('click', () => {
+                window.location = "Sign-in.html";
+            });
+    
+            sign_up.addEventListener('click', () => {
+                window.location = "Sign-up.html";
+            });
+        });
+    </script>
+
+</body>
+</html>
